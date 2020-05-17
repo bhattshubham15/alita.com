@@ -1,0 +1,57 @@
+{
+  "name": "alita.com",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@callstack/react-theme-provider": "^3.0.5",
+    "@material-ui/core": "^4.7.0",
+    "@material-ui/icons": "^4.5.1",
+    "@material/button": "^4.0.0",
+    "@material/chips": "^4.0.0",
+    "@material/elevation": "^4.0.0",
+    "@material/ripple": "^4.0.0",
+    "@material/tab-bar": "^4.0.0",
+    "@material/top-app-bar": "^4.0.0",
+    "aos": "^2.3.4",
+    "bootstrap": "^4.4.1",
+    "history": "^4.10.1",
+    "jquery": "^3.4.1",
+    "material-components-web": "^4.0.0",
+    "materialize-css": "^1.0.0-rc.2",
+    "mdbreact": "^4.24.0",
+    "node-sass": "^4.13.0",
+    "popper.js": "^1.15.0",
+    "react": "^16.9.0",
+    "react-bootstrap": "^1.0.0-beta.16",
+    "react-canvas-js": "^1.0.1",
+    "react-dom": "^16.9.0",
+    "react-responsive-carousel": "^3.1.50",
+    "react-router-dom": "^5.0.1",
+    "react-score-indicator": "^2.2.1",
+    "react-scripts": "3.1.2",
+    "react-scroll": "^1.7.16",
+    "react-scroll-up-button": "^1.6.4",
+    "vue-react": "^1.2.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
