@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import { makeStyles, createStyles, useTheme } from '@material-ui/core/styles';
 import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
 import IconButton from '@material-ui/core/IconButton';
@@ -8,21 +7,14 @@ import Tabs from '@material-ui/core/Tabs';
 import Tab from '@material-ui/core/Tab';
 import './header.scss';
 import $ from 'jquery';
-
-import ChevronLeftIcon from '@material-ui/icons/ChevronLeft';
 import ChevronRightIcon from '@material-ui/icons/ChevronRight';
-import ListItem from '@material-ui/core/ListItem';
-import ListItemText from '@material-ui/core/ListItemText';
-import List from '@material-ui/core/List';
 import Divider from '@material-ui/core/Divider';
 import Drawer from '@material-ui/core/Drawer';
 import clsx from 'clsx';
 import MenuIcon from '@material-ui/icons/Menu';
 import CssBaseline from '@material-ui/core/CssBaseline';
 import { withStyles } from '@material-ui/core/styles';
-// import { Link } from 'react-router-dom';
 import Button from '@material-ui/core/Button';
-import SwipeableDrawer from '@material-ui/core/SwipeableDrawer';
 import { Link, animateScroll as scroll } from "react-scroll";
 
 

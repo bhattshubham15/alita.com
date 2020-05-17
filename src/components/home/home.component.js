@@ -1,7 +1,5 @@
 import React from 'react';
 import { createMuiTheme } from '@material-ui/core/styles';
-// import penimage1 from '../../assets/images/undraw_mobile_wireframe_euf4.svg';
-// import startupimage from '../../assets/images/undraw_startup_life_2du2.svg';
 import brainImage from "../../assets/images/Neural-Network-2.svg";
 import easylife from '../../assets/images/easylife.svg';
 import Button from '@material-ui/core/Button';
@@ -252,19 +250,6 @@ const useStyles = (theme) => ({
     marginRight: 50
   },
 });
-
-const darkTheme = createMuiTheme({
-  palette: {
-    type: 'dark'
-  },
-});
-const theme = createMuiTheme({
-  palette: {
-    primary: {
-      main: '#ff4400'
-    },
-  },
-});
 const features = [
   {
     image: require('../../assets/images/features/loanbyphone.svg'),
@@ -388,19 +373,6 @@ class HomeComponent extends React.Component {
             </div>
           </div>
         </div>
-        {/* <div className="section padding-top-bottom over-hide">
-          <div className="container">
-            <div className="row">
-              <div className="col-12 text-center" data-scroll-reveal="enter bottom move 30px over 0.5s after 0.2s">
-                <a class="blog-nav cursor-link">build your career here</a>
-              </div>
-            </div>
-          </div>
-        </div> */}
-        {/* <div className="cursor cursor-shadow"></div>
-        <div className="cursor cursor-dot"></div> */}
-        {/* <a href="https://themeforest.net/user/ig_design/portfolio" style={{ marginTop: "45px" }} class="link-to-portfolio cursor-link" target="blank"></a> */}
-        {/* </div> */}
         <div className="wrapper facts-content">
           <h1 className="wrapper-head">Facts Are Enough For Your Trust</h1>
           <div className="entry-content">
@@ -409,7 +381,6 @@ class HomeComponent extends React.Component {
             )}
           </div>
         </div>
-        {/* </ThemeProvider> */}
         <div className="parent-feature-cards">
           <h1>Features</h1>
           <div className="feature-cards">
@@ -420,7 +391,6 @@ class HomeComponent extends React.Component {
                     <CardMedia
                       className={classes.media}
                       image={item.image}
-                    // title="Contemplative Reptile"
                     />
                     <CardContent>
                       <Typography gutterBottom variant="h6" component="h2" display="block" noWrap={0}>
@@ -432,9 +402,6 @@ class HomeComponent extends React.Component {
                     </CardContent>
                   </CardActionArea>
                   <CardActions>
-                    {/* <Button size="small" color="primary">
-                      Learn More
-                </Button> */}
                   </CardActions>
                 </Card>
               )
@@ -472,7 +439,6 @@ class HomeComponent extends React.Component {
               <div className="plane">
                 <div className="plane-wrap">
                   A
-                  {/* <img src="http://res.cloudinary.com/da32ibrgl/image/upload/v1517313821/plane_hthjo6.svg" alt="" /> */}
                 </div>
               </div>
 

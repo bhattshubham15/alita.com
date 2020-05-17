@@ -58,10 +58,6 @@
   }
 }
 
-.wrapper {
-  // text-align: center;
-  // background-color: #f3f2f1;
-}
 .wrapper-head {
   font-family: "Amiri", serif;
   font-size: 3em;
@@ -186,10 +182,7 @@ h2 {
   width: 100%;
   position: relative;
   padding-top: inherit;
-  // background-color: #192e4d !important;
   // background: linear-gradient(135deg, #2e5c99 0%, #027bc2 100%) !important;
-  // background: linear-gradient(135deg, #ce8e8e 0%, #2a3f82 100%) !important;
-  // background: linear-gradient(135deg, #3d85f1 0%, #3529e8 100%) !important;
   display: inline-block;
 }
 .recruitment-process .grid {
@@ -623,10 +616,6 @@ h2 {
     grid-template-columns: repeat(2, 5fr);
   }
 }
-.MuiPaper-root.MuiPaper-elevation1.MuiCard-root.makeStyles-root-170.MuiPaper-rounded {
-  // margin: 15px;
-  // padding: 15px;
-}
 
 h1 {
   font-family: "Amiri", serif;
@@ -755,10 +744,3 @@ h1 {
   }
 }
 ///////////
-
-// .mainhome {
-//   background-image: url("../../assets/images/Brain-Typography.svg");
-//   background-color: #0058f2!important;
-//   background-position: center left; /* Center the image */
-//   background-repeat: no-repeat; /* Do not repeat the image */
-// }
