@@ -3,18 +3,18 @@
   "name": "Welcome to Alita",
   "icons": [
     {
-      "src": "Alita.svg",
+      "src": "Alita.png",
       "sizes": "64x64 32x32 24x24 16x16",
       "type": "image/x-icon"
     },
     {
-      "src": "Alita.svg",
-      "type": "image/svg",
+      "src": "Alita.png",
+      "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "Alita.svg",
-      "type": "Alita.svg",
+      "src": "Alita.png",
+      "type": "Alita.png",
       "sizes": "512x512"
     }
   ],
